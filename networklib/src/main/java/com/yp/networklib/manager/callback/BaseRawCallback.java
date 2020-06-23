@@ -2,7 +2,7 @@ package com.yp.networklib.manager.callback;
 
 
 
-import com.yp.networklib.bean.BaseBean;
+import com.yp.baseframworklib.bean.BaseBean;
 import com.yp.networklib.code.NetRetCode;
 import com.yp.networklib.manager.BaseManager;
 

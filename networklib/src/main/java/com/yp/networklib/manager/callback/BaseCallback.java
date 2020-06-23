@@ -12,7 +12,7 @@ import com.yp.baseframworklib.utils.StringUtils;
 import com.yp.networklib.application.BaseApplication;
 import com.yp.networklib.R;
 import com.yp.networklib.application.BridgeApplication;
-import com.yp.networklib.bean.BaseDataBean;
+import com.yp.baseframworklib.bean.BaseDataBean;
 import com.yp.networklib.bean.ExtDataBean;
 import com.yp.networklib.code.NetRetCode;
 import com.yp.networklib.log.Logger;

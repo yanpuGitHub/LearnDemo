@@ -1,5 +1,7 @@
 package com.yp.networklib.bean;
 
+import com.yp.baseframworklib.bean.BaseBean;
+
 /**
  * @author : yanpu
  * @date : 2020-06-20

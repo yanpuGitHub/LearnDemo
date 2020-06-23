@@ -5,7 +5,7 @@ import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
 import com.yp.baseframworklib.utils.StringUtils;
-import com.yp.networklib.bean.BaseDataBean;
+import com.yp.baseframworklib.bean.BaseDataBean;
 import com.yp.networklib.log.Logger;
 import com.yp.networklib.manager.callback.BaseCallback;
 import com.yp.networklib.manager.callback.BaseRawCallback;

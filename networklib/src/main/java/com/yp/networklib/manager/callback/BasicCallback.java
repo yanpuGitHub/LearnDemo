@@ -3,7 +3,7 @@ package com.yp.networklib.manager.callback;
 import com.yp.baseframworklib.utils.StringUtils;
 import com.yp.networklib.application.BaseApplication;
 import com.yp.networklib.R;
-import com.yp.networklib.bean.BaseBean;
+import com.yp.baseframworklib.bean.BaseBean;
 import com.yp.networklib.code.NetRetCode;
 import com.yp.networklib.context.ypContext;
 import com.yp.networklib.log.Logger;

@@ -1,6 +1,6 @@
 package com.yp.learndemo;
 
-import com.yp.networklib.bean.BaseDataBean;
+import com.yp.baseframworklib.bean.BaseDataBean;
 
 import java.util.List;
 

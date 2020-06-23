@@ -1,4 +1,4 @@
-package com.yp.networklib.bean;
+package com.yp.baseframworklib.bean;
 
 /**
  * @author : yanpu

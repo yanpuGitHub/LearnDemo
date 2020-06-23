@@ -54,7 +54,7 @@ public class MainActivity extends AppCompatActivity implements BaseManager.Callb
 
         ImageUtils.with_clipType(this, ImageProxy.SizeType.CUSTOM_SIZE)
                 .view(ivImage)
-                .load("http://piaoshen.oss-cn-beijing.aliyuncs.com/movie/images/2020/01/10/A23F401F76C88C4E56A8.jpg", "pioashen")
+                .load("http://piaoshen.oss-cn-beijing.aliyuncs.com/movie/images/2020/01/10/A23F401F76C88C4E56A8.jpg")
                 .showload();
 
     }

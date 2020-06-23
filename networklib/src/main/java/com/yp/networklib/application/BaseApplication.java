@@ -1,4 +1,4 @@
-package com.yp.networklib;
+package com.yp.networklib.application;
 
 import android.app.Application;
 import android.content.Context;

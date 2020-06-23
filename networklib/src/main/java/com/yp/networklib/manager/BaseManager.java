@@ -3,7 +3,9 @@ package com.yp.networklib.manager;
 
 import android.support.annotation.Nullable;
 
+import com.yp.baseframworklib.utils.SharePreferencesUtils;
 import com.yp.baseframworklib.utils.StringUtils;
+import com.yp.networklib.application.BaseApplication;
 import com.yp.networklib.bean.ExtDataBean;
 import com.yp.networklib.comment.RetrofitInstance;
 
@@ -14,11 +16,11 @@ import com.yp.networklib.comment.RetrofitInstance;
  */
 public class BaseManager {
 
-//    protected SharePreferencesUtils sp;
+    protected SharePreferencesUtils sp;
 
 
     protected void initSp() {
-//        sp = new SharePreferencesUtils(BaseApplication.getContext());
+        sp = new SharePreferencesUtils(BaseApplication.getContext());
     }
 
 
@@ -33,7 +35,7 @@ public class BaseManager {
 
     public interface Callback<B> {
 
-        void onSuss(@Nullable B bean, @Nullable ExtDataBean extBean);
+        void onSuccess(@Nullable B bean, @Nullable ExtDataBean extBean);
 
         void onError(int code, String str, @Nullable ExtDataBean extBean);
     }

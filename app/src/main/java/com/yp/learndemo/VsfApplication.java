@@ -1,5 +1,7 @@
 package com.yp.learndemo;
 
+import com.yp.baseframworklib.scheme.SchemeInstance;
+import com.yp.learndemo.schemel.SchemeProcessImpl;
 import com.yp.networklib.interceptor.PiaosTokenClient;
 import com.yp.networklib.comment.RetrofitInstance;
 import com.yp.networklib.context.NetContext;
@@ -19,6 +21,7 @@ public class VsfApplication extends PrimaryApplication {
         RetrofitInstance.getInstance().init(NetContext.DOMAIN_BASE, new PiaosTokenClient().getTokenClient());
 
         registerActivityLifecycleCallbacks(lifecycleCallbacks);
+        SchemeInstance.getInstance().setSchemeProcess(new SchemeProcessImpl());
 //        registerActivityLifecycleCallbacks(new StatActivityLifecycleCallbacks());
 
     }

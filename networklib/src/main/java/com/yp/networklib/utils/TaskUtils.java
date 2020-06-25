@@ -13,7 +13,7 @@ import android.support.v4.view.ViewCompat;
 import android.view.View;
 
 import com.yp.networklib.context.BridgeContext;
-import com.yp.networklib.log.Logger;
+import com.yp.baseframworklib.log.Logger;
 
 /**
  * @author : yanpu

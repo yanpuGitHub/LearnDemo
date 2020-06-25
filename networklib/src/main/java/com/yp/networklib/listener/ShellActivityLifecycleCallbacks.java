@@ -4,7 +4,7 @@ import android.app.Activity;
 import android.app.Application;
 import android.os.Bundle;
 
-import com.yp.networklib.log.Logger;
+import com.yp.baseframworklib.log.Logger;
 
 /**
  * @author : yanpu

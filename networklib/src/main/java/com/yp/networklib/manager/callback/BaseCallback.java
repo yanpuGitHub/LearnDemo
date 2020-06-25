@@ -15,7 +15,7 @@ import com.yp.networklib.application.BridgeApplication;
 import com.yp.baseframworklib.bean.BaseDataBean;
 import com.yp.networklib.bean.ExtDataBean;
 import com.yp.networklib.code.NetRetCode;
-import com.yp.networklib.log.Logger;
+import com.yp.baseframworklib.log.Logger;
 import com.yp.networklib.manager.BaseManager;
 import com.yp.networklib.utils.DelayUtils;
 import com.yp.networklib.utils.TaskStartUtils;

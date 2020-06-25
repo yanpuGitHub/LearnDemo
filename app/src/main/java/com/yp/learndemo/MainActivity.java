@@ -11,12 +11,11 @@ import android.util.Log;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
-import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import com.yp.baseframworklib.utils.DensityUtils;
 import com.yp.networklib.bean.ExtDataBean;
-import com.yp.networklib.log.Logger;
+import com.yp.baseframworklib.log.Logger;
 import com.yp.networklib.manager.BaseManager;
 import com.yp.pic.ImageProxy;
 import com.yp.pic.ImageUtils;

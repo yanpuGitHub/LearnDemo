@@ -1,6 +1,6 @@
 package com.yp.networklib.interceptor;
 
-import com.yp.networklib.log.Logger;
+import com.yp.baseframworklib.log.Logger;
 
 import java.io.IOException;
 

@@ -6,7 +6,7 @@ import android.content.SharedPreferences;
 import com.yp.baseframworklib.utils.StringUtils;
 import com.yp.networklib.application.BaseApplication;
 import com.yp.networklib.context.NetContext;
-import com.yp.networklib.log.Logger;
+import com.yp.baseframworklib.log.Logger;
 
 import java.io.IOException;
 import java.util.List;

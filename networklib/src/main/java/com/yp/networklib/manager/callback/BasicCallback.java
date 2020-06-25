@@ -6,7 +6,7 @@ import com.yp.networklib.R;
 import com.yp.baseframworklib.bean.BaseBean;
 import com.yp.networklib.code.NetRetCode;
 import com.yp.networklib.context.ypContext;
-import com.yp.networklib.log.Logger;
+import com.yp.baseframworklib.log.Logger;
 import com.yp.networklib.manager.BaseManager;
 
 import java.net.ConnectException;

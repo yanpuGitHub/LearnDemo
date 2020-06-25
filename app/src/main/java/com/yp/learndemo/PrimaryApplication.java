@@ -2,7 +2,7 @@ package com.yp.learndemo;
 
 import com.yp.networklib.application.ShellApplication;
 import com.yp.networklib.listener.ShellActivityLifecycleCallbacks;
-import com.yp.networklib.log.Logger;
+import com.yp.baseframworklib.log.Logger;
 
 
 /**
